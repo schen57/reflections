@@ -1,7 +1,11 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+    When initialiing a repository, a metadata file is added as a hidden file to the repository. The hidden metadata file describes the files and versions and the status of different files in the repository. This is necessary for anyone wishes to work on a repository.
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+    The repository includes the collection of files and the metadata files. The working directory is current directory that git bash focuses on. Whenever a user makes a commit, the current version of the files and other metadata information is saved/commited to the repository. The intermediate step is the staging area. In the staging area is where the files and their versions and where the commits happen.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
