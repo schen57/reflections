@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The answer to the question is quite obvious. The differences between two versions of a file on view can help compare and contract the effect/functionalities of certain inputs changed/input by the user. This Incremental changes and comparison may bring a lot of effect to the program in question. When not compared in this controlled enviornment. The user might become highly confused.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having a history of a file can help the user track changes over time.In the long term, the user may have forgotten about some codes that were overwritten can effectively step into the history and reuse and recylce those tidbits of codes.This makes the reference system complete and useful.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Google Docs automatically saving documents is good for keeping the most recent changes. Manual commits require conscious choices of the user to remember to save, that doesn't happen automatically for everyone. Sometimes people may simply forget.However, manual commit, since it is a conscious effort, makes sure that whatever gets saved is the desired version. Constant saving would overwrite some of the codes previously written. This can be challenging for debugging purposes or for others.
+
+    The manual saving model used in git can help users keep track of meaningful changes
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    While I cannot articulate the entire reasons clearly. I can make some guesses. I think that has to do with the purposes built around each platform. Both platforms are great for collaboration and keep changes made to documents. git is more for keeping up with the collaborative coding environments. Very rarely would people try coding with google docs.This collaborative coding environments require constant backtracking/comparisons to be made since multiple people with multitutdes of ideas are working on the same document.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    log can help you see the history of commit logs. Git diff compares the changes made of the documents. This makes understanding the changes made across documents easy.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because there's always an older version saved. Even if the new versions could break the code, you can always go back to the version before and start from there.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Using it for javascript course since for that course, git intro is listed as a required course. I just finished the linux command course yesterday in fact.
