@@ -10,6 +10,8 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    In the staging area, there are several handy little tricks that can be applied to make sure that the changes between commits are incremental. The git diff shows the difference between the original files and the files in the staging area. This command can help one keep track the amount of changes that one would like to commit per commit.Before committing, checking the changes in the staging area can ensure such incremntality.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
