@@ -1,24 +1,24 @@
-What happens when you initialize a repository? Why do you need to do it?
+1. What happens when you initialize a repository? Why do you need to do it?
 
     When initialiing a repository, a metadata file is added as a hidden file to the repository. The hidden metadata file describes the files and versions and the status of different files in the repository. This is necessary for anyone wishes to work on a repository.
 
-How is the staging area different from the working directory and the repository?
+2. How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
     The repository includes the collection of files and the metadata files. The working directory is current directory that git bash focuses on. Whenever a user makes a commit, the current version of the files and other metadata information is saved/commited to the repository. The intermediate step is the staging area. In the staging area is where the files and their versions and where the commits happen.
 
-How can you use the staging area to make sure you have one commit per logical
+3. How can you use the staging area to make sure you have one commit per logical
 change?
 
     In the staging area, there are several handy little tricks that can be applied to make sure that the changes between commits are incremental. The git diff shows the difference between the original files and the files in the staging area. This command can help one keep track the amount of changes that one would like to commit per commit.Before committing, checking the changes in the staging area can ensure such incremntality.
 
-What are some situations when branches would be helpful in keeping your history
+4. What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-How do the diagrams help you visualize the branch structure?
+5. How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together? Why do we represent it in
+6. What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
