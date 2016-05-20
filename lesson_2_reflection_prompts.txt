@@ -15,6 +15,8 @@ change?
 4. What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+    Branches are extremely helpful for several situations. For example, whenever I need to experiment and play around with the code. I can create a branch and play with codes. This experimentation and without the fear of running into problems / breaking the code too hard. Coz if when that happens. I can always rely on the safe copy saved in the master branch. The same functionality carries through with collaboration with peers.For example, a few of us would like to work on the same code together. We can then create several branches so that we can merge the files together and push them to the master branch later.
+
 5. How do the diagrams help you visualize the branch structure?
 
 6. What is the result of merging two branches together? Why do we represent it in
