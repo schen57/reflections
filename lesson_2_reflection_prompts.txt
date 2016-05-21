@@ -19,6 +19,8 @@ organized? How would branches help?
 
 5. How do the diagrams help you visualize the branch structure?
 
+    The digrams clearly and succinctly shows the diagram stucture and this is important for retracing back to the earlier versions where changes were made, complete with descriptions.This is also a good reminder for using the git checkout -b branch name command since some branches are essentialy non-reachable if no branch names were created for this purpose.
+
 6. What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
