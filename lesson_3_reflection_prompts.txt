@@ -20,7 +20,7 @@ use one instead of another?
 4. What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    There are many benefits. One clear benefit is the ability to work continously offline based on the newest state of the remote. for example, say if I am trying to catch a plane, the offline copy of the remote allows me to keep working on the remote even when I don't have internet access anymore
 
 5. How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
