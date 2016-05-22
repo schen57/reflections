@@ -24,5 +24,9 @@ organized? How would branches help?
 6. What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+    I have tried a lot of times in merging the branchs together but it seems there's always something wrong that prevents the auto merging between the two files. I have redone the previous steps to make sure that my master node was in the same condition as that of Caroline's. However, to no avail, somehting is still preventing me from merging them. I have checked the forum and it seems that some other people are experiencing similar problems as I do. They said that after watching later videos, their problems are pretty much solved. With this being said, I am going to move on and see those videos.
+
+    The reson for the diagram is for ease of use and ease of reference. Because of the merging problem I have narrated above, I had to refer to the git branch command to see the structures of the modification steps that I have taken.
+
 7. What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
