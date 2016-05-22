@@ -30,3 +30,5 @@ the diagram the way we do?
 
 7. What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+    Merging automatically can save a lot of time and energy in caliberating the details of various documents. However, no machine algorithms are perfect nor are they perfectly adaptable in every situations. This means that automatic merging, while efficient in its intentions, can usually result in erroneous situations. In these situations, the previously intended efficiency are lost to constant rechecking/re-running the codes that would have worked without automatic merging strategies. In these situations, it is a sound rule to stop the automatic merging activities altogether and bring to the coder/programmer's attention that conflicts or ambiguities have emerged. Human interventions can then check the lines of codes flagged by the machine and work to resolve the conflicts that way. In a way, this latter strategy is an embodiment of the commonly praised form of human-machine collaboration. The synegistic combination can therefore increase productivity many-folds, without the loss of fine-tune caliberation.
