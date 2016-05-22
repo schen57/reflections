@@ -1,30 +1,30 @@
-When would you want to use a remote repository rather than keeping all your work
+1. When would you want to use a remote repository rather than keeping all your work
 local?
 
     I'd want to use a remote repository for several use cases. One is for collaboration. Github is a handy storage infrastructure where files can be editted, accessed and collaborated remotely. If I am doing a project with multiple users, we can share our inputs and collaborate using github as our remote repository. That way, people will gain visiability of the progress of the project itself.
     The Second use case is for remote/offline access. These files/changes can pushed/saved to github and accessed again from another work station. In this cloud hosted environment, my work won't be hindered by the lack of access to that single offline work station.
 
-Why might you want to always pull changes manually rather than having Git
+2. Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
     The key differences between manual and automatic operation can be categorized by two entities, the agent that operates on the process, and the rules of such operation. The automatic operation is carried out by an autonomous machine abiding by a set of pre-defined rules. The autonomous machine can carry out the operations usually at a significantly more scaled up speed than the human agent. However, the set of pre-defined rules cannot be adequately applied to every situation. That is usually where the human agent will step in to intervene with new rules/new modifications to the previously defined rules. Having established these distinctions, we can see the pros and cons of having git automatically stay up to date with the remote repository. The points/arguments for such automation is usually a type of saving of energy/time and human labor. The cons are usually of the type that when predefined rules that automatic updates operate on fail in capturing. For example, when several human agents collaborate on the same project, the automatic updates if not properly caliberated may become confused as to which versions of the files to be pushed and pulled. If there are rules that resolve the conflicts of updates, these rules cannot possibly adapt as quickly as the dynamics of the collaboration itself. Hence, automatic updates will cause failures/errors and if not more involved human labor.
 
-Describe the differences between forks, clones, and branches.  When would you
+3. Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
     Fill in your answer here
 
-What is the benefit of having a copy of the last known state of the remote
+4. What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
     Fill in your answer here
 
-How would you collaborate without using Git or GitHub?  What would be easier,
+5. How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
     Fill in your answer here
 
-When would you want to make changes in a separate branch rather than directly in
+6. When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
     Fill in your answer here
